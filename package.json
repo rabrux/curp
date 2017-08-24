@@ -1,0 +1,28 @@
+{
+  "name": "curp",
+  "version": "0.0.0",
+  "description": "curp generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost"
+  },
+  "keywords": [
+    "curp",
+    "generator"
+  ],
+  "author": "rabrux <n3ur0n4@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.12.7",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11"
+  }
+}

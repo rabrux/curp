@@ -1,0 +1,23 @@
+{
+  "name": "curp",
+  "authors": [
+    "jigsaw <n3ur0n4@gmail.com>"
+  ],
+  "description": "curp jquery module",
+  "main": "dist/CURP.js",
+  "keywords": [
+    "curp"
+  ],
+  "license": "MIT",
+  "homepage": "localhost",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
