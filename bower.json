@@ -9,7 +9,7 @@
     "curp"
   ],
   "license": "MIT",
-  "homepage": "localhost",
+  "homepage": "https://rabrux.github.io/curp",
   "ignore": [
     "**/.*",
     "node_modules",
