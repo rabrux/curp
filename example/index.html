@@ -3,22 +3,30 @@
   <head>
     <meta charset="utf8">
     <title>CURP</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <div class="curp">
-      <input field="nombres" type="text" placeholder="nombre" />
-      <input field="paterno" type="text" placeholder="apellido paterno" />
-      <input field="materno" type="text" placeholder="apellido materno" />
-      <input field="fechaNacimiento" type="text" placeholder="dd/mm/aaaa" />
-      <select field="sexo">
-        <option selected disabled>Sexo</option>
-        <option value="FEMENINO">Mujer</option>
-        <option value="MASCULINO">Hombre</option>
-      </select>
-      <select field="entidad">
-      </select>
-      <input field="curp" type="text" size="30" />
+
+    <div class="wrap">
+      <div class="curp">
+	<h1>Curp</h1>
+	<h3>Clave Única de Registro de Población</h3>
+        <input field="paterno" type="text" placeholder="apellido paterno" />
+        <input field="materno" type="text" placeholder="apellido materno" />
+        <input field="nombres" type="text" placeholder="nombre" />
+        <input field="fechaNacimiento" type="text" placeholder="fecha de nacimiento" formatPlaceholder="dd/mm/aaaa" />
+        <select field="sexo">
+          <option selected disabled>Sexo</option>
+          <option value="FEMENINO">Mujer</option>
+          <option value="MASCULINO">Hombre</option>
+        </select>
+        <select field="entidad">
+	  <option selected disabled>Entidad de nacimiento</option>
+        </select>
+        <input field="curp" type="text" placeholder="curp" />
+      </div>
     </div>
+
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../dist/CURP.js"></script>
     <script src="app.js"></script>

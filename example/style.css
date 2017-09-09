@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: verdana;
+}
+
+.wrap {
+  height: 100vh;
+  background: rgba( 144, 114, 114, 0.2 );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.curp {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.curp h1 {
+  margin: 0;
+  font-weight: 100;
+  color: #e4007c;
+  text-transform: uppercase;
+}
+
+.curp h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 14px;
+}
+
+.curp input, 
+.curp select {
+  background: rgba( 144, 114, 114, 0.2 );
+  border: 1px solid rgba( 114, 114, 114, 0.2 );
+  font-size: 21px;
+  line-height: 35px;
+  height: 35px;
+  padding: 0 14px;
+  color: #e4007c;
+}
+
+.curp input + input, 
+.curp input + select,
+.curp select + input,
+.curp select + select {
+  margin-top: 14px;
+}

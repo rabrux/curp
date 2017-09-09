@@ -18,4 +18,21 @@
     }
   );
 
+  function switchPlaceholder( $el ) {
+      var aux = $el.attr( 'placeholder' );
+      $el.attr( 'placeholder', $el.attr( 'formatPlaceholder' ) );
+      $el.attr( 'formatPlaceholder', aux );
+  }
+
+  // add plaholder switcher
+  $( '[formatPlaceholder]' )
+    .focus( function() {
+      var $el = $( this );
+      switchPlaceholder( $el );
+    } )
+    .blur( function() {
+      var $el = $( this );
+      switchPlaceholder( $el );
+    } )
+
 } )();
